@@ -1,0 +1,30 @@
+{
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "explorer.confirmDelete": false,
+    "redhat.telemetry.enabled": false,
+    "workbench.startupEditor": "none",
+    "workbench.editorAssociations": {
+        "*.sqlite": "default"
+    },
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "explorer.confirmDragAndDrop": false,
+    "git.enableSmartCommit": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "extensions.gallery": {
+	"serviceUrl": "https://open-vsx.org/vscode/gallery",
+        "itemUrl": "https://open-vsx.org/vscode/item"
+    },
+    "go.languageServerFlags": ["-remote=auto"],
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "never",
+        "source.fixAll": "never"
+    },
+    "[go]": {
+        "editor.formatOnSave": false,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "never"
+        }
+    }
+}
+
