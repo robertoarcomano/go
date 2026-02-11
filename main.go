@@ -59,11 +59,4 @@ func main() {
 		<-stop
 	}
 	fmt.Println("\nruntime.NumGoroutine():", num_go_routines)
-
-	// for i := 0; i < n; i++ {
-	// 	a := <-status
-	// 	fmt.Print(a)
-	// 	fmt.Print(" ")
-	// }
-	// fmt.Println()
 }
